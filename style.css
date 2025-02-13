@@ -2026,8 +2026,8 @@ label {
 }
 
 body {/*CAMBIO*/
-    background-color: var(--background-color);
-    color: #333;
+    background-color: var(--body-bg);
+    color: var(--body-text);
 }
 
 .sidebar {
@@ -2045,7 +2045,7 @@ body {/*CAMBIO*/
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: #F8F9FA !important;/* CAMBIO */
+  background-color: var(--sidebar-bg) !important;/* CAMBIO */
   width: fit-content;/* CAMBIO */
   padding: 20px;/* CAMBIO */
   -webkit-transition: 0.5s all;
@@ -2426,7 +2426,7 @@ body {/*CAMBIO*/
   -webkit-transition: 0.3s all;
   -o-transition: 0.3s all;
   transition: 0.3s all;
-  background-color: #F8F9FA;/*CAMBIO*/
+  background-color: pink;/*CAMBIO*/
 }
 
 .main-nav-end {

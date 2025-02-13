@@ -1,7 +1,8 @@
 :root {
-    --background-color: green;
     --body-bg: #f8f9fa;
-    --sidebar-bg: #fff;
+    --body-text: #333;
+
+    --sidebar-bg: #f8f9fa;
     --sidebar-dark-bg: #dc7240;
   }
   
