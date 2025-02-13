@@ -8,6 +8,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+@import url('https://conecta-lab.github.io/IoTiva-MainStyle/colors.css');
+
 @import url(../fonts/stylesheet.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
@@ -2024,7 +2026,7 @@ label {
 }
 
 body {/*CAMBIO*/
-    background-color: #f8f9fa;
+    background-color: var(--background-color);
     color: #333;
 }
 

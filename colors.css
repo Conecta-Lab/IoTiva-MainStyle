@@ -1,4 +1,6 @@
 :root {
+    --background-color: green;
+    --body-bg: #f8f9fa;
     --sidebar-bg: #fff;
     --sidebar-dark-bg: #dc7240;
   }
