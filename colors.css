@@ -1,18 +1,21 @@
 /*pink IoTiva*/ 
 :root {
-    --highlight: #0095DA; /*EB008B*/ 
 
-    --body-bg: #f8f9fa;
-    --body-text: #333;
+  --main-bg: #EEEEEE;
+  --main-dark-bg: #28272D;
 
-    --sidebar-bg: #f8f9fa;
-    --sidebar-text: #333;
-    --sidebar-dark-bg: #28272D;
-    --sidebar-dark-text: #FFF;
+  --highlight: #0095DA; /*EB008B*/ 
 
-    --top-nav-bg: #f8f9fa;
-    --top-nav-dark-bg: #28272D;
-    --top-nav-text: #333;
-    --top-nav-dark-text: #FFF;
-  }
-  
+  --body-bg: #f8f9fa;
+  --body-text: #333;
+
+  --sidebar-bg: #f8f9fa;
+  --sidebar-text: #333;
+  --sidebar-dark-bg: #28272D;
+  --sidebar-dark-text: #FFF;
+
+  --top-nav-bg: #f8f9fa;
+  --top-nav-dark-bg: #28272D;
+  --top-nav-text: #333;
+  --top-nav-dark-text: #FFF;
+}

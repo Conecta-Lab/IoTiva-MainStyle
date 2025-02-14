@@ -3055,9 +3055,14 @@
  }
  
  .main {
-     padding-top: 5px;
-     padding-bottom: 0px;
-     margin-bottom: 5px;
+    background: var(--main-bg);
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+ }
+
+ .darkmode .main {
+   background: var(--main-dark-bg);
  }
  
  .main-content {
