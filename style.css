@@ -2059,12 +2059,16 @@ body {/*CAMBIO*/
 }
 
 .sidebar_title_wrapper{
-    color: #333;/* CAMBIO */
+    color: var(--sidebar-text);/* CAMBIO */
     font-size: 12px;/* CAMBIO */
 	position: relative;
 	max-width: 150px;
 	line-height: normal;
 
+}
+
+.darkmode .sidebar_title_wrapper{
+    color: var(--sidebar-dark-text) !important;
 }
 
 .sidebar a {/*CAMBIO*/
