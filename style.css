@@ -3419,7 +3419,7 @@ body {/*CAMBIO*/
 }
 
 .darkmode .main-nav--bg {
-  background-color: #fff;
+  background-color: var(--top-nav-dark-bg);
 }
 
 .darkmode .search-wrapper input {
@@ -3461,7 +3461,7 @@ body {/*CAMBIO*/
 }
 
 .darkmode .sidebar {
-  background-color: var(--highlight) !important;
+  background-color: var(--sidebar-dark-bg) !important;
 }
 
 .darkmode .dropdown {

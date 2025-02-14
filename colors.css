@@ -1,12 +1,14 @@
+/*pink IoTiva*/ 
 :root {
-    --highlight: #EB008B;
+    --highlight: #0095DA; /*EB008B*/ 
 
     --body-bg: #f8f9fa;
     --body-text: #333;
 
     --sidebar-bg: #f8f9fa;
-    --sidebar-dark-bg: #EB008B;
+    --sidebar-dark-bg: #28272D;
 
     --top-nav-bg: #f8f9fa;
+    --top-nav-dark-bg: #28272D;
   }
   
