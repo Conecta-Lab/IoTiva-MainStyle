@@ -1,11 +1,11 @@
 :root {
-    --highlight: #dc7240;
+    --highlight: #EB008B;
 
     --body-bg: #f8f9fa;
     --body-text: #333;
 
     --sidebar-bg: #f8f9fa;
-    --sidebar-dark-bg: #dc7240;
+    --sidebar-dark-bg: #EB008B;
 
     --top-nav-bg: #f8f9fa;
   }
