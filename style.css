@@ -2426,7 +2426,7 @@ body {/*CAMBIO*/
   -webkit-transition: 0.3s all;
   -o-transition: 0.3s all;
   transition: 0.3s all;
-  background-color: pink;/*CAMBIO*/
+  background-color: var(--top-nav-bg) !important;/* CAMBIO */
 }
 
 .main-nav-end {
@@ -3003,7 +3003,7 @@ body {/*CAMBIO*/
 }
 
 .top-cat-list__subtitle .blue {
-  color: #dc7240;
+  color: purple;/*HIGHLIGHT*/
   background-color: rgba(116, 51, 255, 0.1);
 }
 
@@ -3461,7 +3461,7 @@ body {/*CAMBIO*/
 }
 
 .darkmode .sidebar {
-  background-color: #dc7240 !important;
+  background-color: var(--highlight) !important;
 }
 
 .darkmode .dropdown {
@@ -3513,7 +3513,7 @@ body {/*CAMBIO*/
 }
 
 .darkmode .sort-bar {
-  background-color: #dc7240;
+  background-color: green;/*HIGHLIGHT*/
 }
 
 .darkmode .users-table {
@@ -3526,7 +3526,7 @@ body {/*CAMBIO*/
 }
 
 .darkmode .users-table thead {
-  background-color: #dc7240;
+  background-color: pink;/*HIGHLIGHT*/
 }
 
 .darkmode .users-table td {
