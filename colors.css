@@ -5,6 +5,9 @@
   --highlight: #0095DA; /*EB008B*/ 
   --highlight2: #EB008B;
 
+  --highlight-hover: #0072bc;
+  --highlight2-hover: #b9006e;
+
   --body-bg: #f8f9fa;
   --body-text: #333;
   --body-dark-text: #FFF;
