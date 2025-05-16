@@ -1254,24 +1254,23 @@
  .lang-switcher svg {
    stroke: #B9B9B9;
  }
- 
+
  .theme-switcher svg {
-   width: 24px;
-   height: 24px;
- }
+   flex-shrink: 0;
+  }
  
  /* Estilo base (modo claro) */
 .theme-switcher circle,
 .theme-switcher line {
-  stroke: #171717;
-  fill: #171717;
+  stroke: var(--top-nav-buttons-text);
+  fill: var(--top-nav-buttons-text)
 }
 
 /* Estilo para modo oscuro */
 .darkmode .theme-switcher circle,
 .darkmode .theme-switcher line {
-  stroke: #D6D7E3;
-  fill: #D6D7E3;
+  stroke: var(--top-nav-buttons-dark-text);
+  fill: var(--top-nav-buttons-dark-text)
 }
 
  
@@ -3505,16 +3504,29 @@
  .darkmode .gray-circle-btn {
    background-color: var(--top-nav-buttons-dark-bg);
  }
- 
- .darkmode .sun-icon {
-   display: none;
-   fill: var(--top-nav-buttons-dark-text);
+
+  .sun-icon,
+  .moon-icon {
+    display: none;
   }
- 
- .darkmode .moon-icon {
-   display: initial;
-   fill: var(--top-nav-buttons-dark-text);
- }
+
+  /* Modo claro: solo sol visible */
+  .sun-icon {
+    display: inline-block;
+  }
+
+  .moon-icon {
+    display: none;
+  }
+
+  /* Modo oscuro: solo luna visible */
+  .darkmode .sun-icon {
+    display: none;
+  }
+  .darkmode .moon-icon {
+    display: inline-block;
+    fill: var(--top-nav-buttons-dark-text);
+  }
  
  .darkmode .sidebar {
    background-color: var(--sidebar-dark-bg) !important;
@@ -3687,16 +3699,6 @@
  
  .darkmode .menu-toggle--gray {
    background-image: url(../img/svg/Bulk/Menu-toggle-white.svg);
- }
- 
- .sun-icon {
-   display: initial;
-   fill: var(--top-nav-buttons-text)
- }
-
- .moon-icon {
-   display: none;
-   fill: var(--top-nav-buttons-text)
  }
  
  @media (min-width: 576px) {

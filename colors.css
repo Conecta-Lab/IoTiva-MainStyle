@@ -2,7 +2,7 @@
   --main-bg: #EEEEEE;
   --main-dark-bg: #28272D;
 
-  --highlight: #0095DA; /*EB008B*/ 
+  --highlight: #0095DA;
   --highlight2: #EB008B;
 
   --highlight-hover: #0072bc;
@@ -24,10 +24,44 @@
 
   --top-nav-buttons-bg: #EFEEEA;
   --top-nav-buttons-dark-bg: #212121;
-  --top-nav-buttons-text: #333;
+  --top-nav-buttons-text: #686D76;
   --top-nav-buttons-dark-text: #FFF;
 
   --online-color: #00ff00;
   --offline-color: #ff0000;
+}
+
+
+:iotiva {
+  --main-bg: #F4F6F8;
+  --main-dark-bg: #1B1B1F;
+
+  --highlight: #0095DA;       /* Azul corporativo */
+  --highlight2: #EB008B;      /* Magenta vibrante */
+
+  --highlight-hover: #0072BC;    /* Azul más intenso */
+  --highlight2-hover: #B9006E;   /* Magenta oscuro */
+
+  --body-bg: #FFFFFF;         /* Blanco para claridad */
+  --body-text: #333333;       /* Texto oscuro legible */
+  --body-dark-text: #FFFFFF;
+
+  --sidebar-bg: #E9EDF0;      /* Gris claro con tono azulino */
+  --sidebar-text: #2C2C2C;
+  --sidebar-dark-bg: #1F1F23;
+  --sidebar-dark-text: #F5F5F5;
+
+  --top-nav-bg: #F4F6F8;
+  --top-nav-dark-bg: #1B1B1F;
+  --top-nav-text: #333;
+  --top-nav-dark-text: #FFF;
+
+  --top-nav-buttons-bg: #E6E6E6;
+  --top-nav-buttons-dark-bg: #212121;
+  --top-nav-buttons-text: #555;
+  --top-nav-buttons-dark-text: #FFF;
+
+  --online-color: #00D084;    /* Verde moderno */
+  --offline-color: #FF3B30;   /* Rojo alerta */
 }
 
