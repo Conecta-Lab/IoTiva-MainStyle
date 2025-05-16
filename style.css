@@ -1048,7 +1048,13 @@
  }
  
  .menu-toggle {
-   background-image: url(https://conecta-lab.github.io/IoTiva-MainStyle/img/svg/Bulk/Menu-toggle-white.svg);
+   background-image: url(https://conecta-lab.github.io/IoTiva-MainStyle/img/svg/Bulk/Menu-toggle-black.svg); /*REF a GH*/
+   width: 24px;
+   height: 24px;
+ }
+
+ .darkmode .menu-toggle {
+   background-image: url(https://conecta-lab.github.io/IoTiva-MainStyle/img/svg/Bulk/Menu-toggle-white.svg); /*REF a GH*/
    width: 24px;
    height: 24px;
  }
@@ -2076,8 +2082,8 @@
      color: var(--sidebar-dark-text) !important;
  }
  
- .sidebar a {/*CAMBIO*/
-     display: flex;
+ .sidebar a {
+     display: compact;
      align-items: center;
      padding: 5px;
      color: var(--sidebar-text);
@@ -2086,9 +2092,13 @@
      border-radius: 5px;
      transition: background 0.3s;
  }
+
+ .darkmode .sidebar a {
+     color: var(--sidebar-dark-text);
+ }
  
  .sidebar a:hover {/*CAMBIO*/
-     background-color: #f0f2f5;
+     background-color: #d6d6d6
  }
  
  .sidebar a:focus {
@@ -2224,8 +2234,8 @@
    align-items: flex-end;
    margin-right: 8px;
    border-radius: 10%;
-   width: 20px;
-   height: 20px;
+   width: 45px;
+   height: 45px;
    overflow: hidden;
    background-color: transparent;
  }
@@ -2425,7 +2435,7 @@
  }
  
  .main-nav {
-   padding: 15px;/* CAMBIO */
+   padding: 5px;/* CAMBIO */
    background-color: var(--top-nav-bg);/* CAMBIO */
    border-radius: 0px;/* CAMBIO */
    box-shadow: 0, transparent;/* CAMBIO */
@@ -4162,8 +4172,8 @@
    }
  
    .sidebar.hidden .sidebar-user-img {
-     width: 40px;
-     height: 40px;
+     width: 45px;
+     height: 45px;
      margin-right: auto;
      margin-left: auto;
    }
