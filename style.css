@@ -2304,7 +2304,7 @@
    font-weight: 800;
    line-height: 1.0;
    letter-spacing: 0.86px;
-   color: var(--body-text) !important;
+   color: var(--top-nav-title-color) !important;
  }
  
  .darkmode .custom-title {

@@ -50,7 +50,6 @@
 
     --top-nav-title-color: #213080;
     --top-nav-dark-title-color: #FFF;
-
     --top-nav-bg: #DAE5F2;
     --top-nav-dark-bg: #1B1B1F;
     --top-nav-text: #333;
@@ -62,4 +61,36 @@
 
     --online-color: #00D084;
     --offline-color: #FF3B30;
+}
+
+.theme-minstransporte {
+  --main-bg: #F4F6F8;
+  --main-dark-bg: #1B1B1F;
+
+  --highlight: #F1BA88;
+  --highlight-dark: #FFF;
+  --highlight2: #D9733F;
+  
+  --body-bg: #FFFFFF;
+  --body-text: #333333;
+  --body-dark-text: #FFFFFF;
+  
+  --sidebar-bg: #D9733F;
+  --sidebar-text: #FFF;
+  --sidebar-dark-bg: #1F1F23;
+  --sidebar-dark-text: #FFF;
+  
+  --top-nav-title-color: #D9733F;
+  --top-nav-dark-title-color: #FFF;
+  --top-nav-bg: #D9733F;
+  --top-nav-dark-bg: #1B1B1F;
+  --top-nav-text: #333;
+  --top-nav-dark-text: #FFF;
+  --top-nav-buttons-bg: #F1BA88;
+  --top-nav-buttons-dark-bg: #212121;
+  --top-nav-buttons-text: #FFF;
+  --top-nav-buttons-dark-text: #FFF;
+  
+  --online-color: #00D084;
+  --offline-color: #FF3B30;
 }
