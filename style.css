@@ -1532,7 +1532,7 @@
    -webkit-box-pack: center;
    -ms-flex-pack: center;
    justify-content: center;
-   background-color: #eff0f6;
+   background-color: var(--top-nav-buttons-bg);
    width: 40px;
    height: 40px;
    border-radius: 50%;
@@ -1540,13 +1540,13 @@
  }
  
  .gray-circle-btn.online{
-     border-color: #4bde97;
+     border-color: var(--online-color);
      border-style: double;
      border-width: revert;
  }
  
  .gray-circle-btn.offline{
-     border-color: #f26464;
+     border-color: var(--offline-color);
      border-style: double;
      border-width: revert;
  }
@@ -3489,7 +3489,7 @@
  }
  
  .darkmode .gray-circle-btn {
-   background-color: #eff0f6;
+   background-color: var(--top-nav-buttons-dark-bg);
  }
  
  .darkmode .sun-icon {
@@ -4420,6 +4420,7 @@
    }
  
    .main-nav-start {
+    padding: 0px 0px 0px 20px;
      width: 100%;
    }
  

@@ -21,5 +21,13 @@
   --top-nav-dark-bg: #28272D;
   --top-nav-text: #333;
   --top-nav-dark-text: #FFF;
+
+  --top-nav-buttons-bg: #f8f9fa;
+  --top-nav-buttons-dark-bg: #28272D;
+  --top-nav-buttons-text: #333;
+  --top-nav-buttons-dark-text: #FFF;
+
+  --online-color: #00ff00;
+  --offline-color: #ff0000;
 }
 
