@@ -1088,6 +1088,10 @@
    width: 15px;
    height: 15px;
  }
+
+ .icon.arrow-down {
+   background-color: transparent;
+ }
  
  .image {
    background-image: url(../img/svg/Bulk/Image-white.svg);
@@ -4146,12 +4150,12 @@
    }
 
    .sidebar.hidden .sidebar-body-menu .icon {
-     background-color: #2f49d1;
+     background-color: transparent;
      color: var(--sidebar-text)
    }
    
    .darkmode .sidebar.hidden .sidebar-body-menu .icon {
-     background-color: #4bde97;
+     background-color: transparent;
      color: var(--sidebar-dark-text)
    }
  
