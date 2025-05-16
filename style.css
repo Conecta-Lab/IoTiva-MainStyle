@@ -1260,14 +1260,20 @@
    height: 24px;
  }
  
- .theme-switcher circle {
-   fill: #D6D7E3;
-   stroke: #D6D7E3;
- }
- 
- .theme-switcher line {
-   stroke: #D6D7E3;
- }
+ /* Estilo base (modo claro) */
+.theme-switcher circle,
+.theme-switcher line {
+  stroke: #171717;
+  fill: #171717;
+}
+
+/* Estilo para modo oscuro */
+.darkmode .theme-switcher circle,
+.darkmode .theme-switcher line {
+  stroke: #D6D7E3;
+  fill: #D6D7E3;
+}
+
  
  .users .primary-white-btn svg {
    margin-right: 5px;
