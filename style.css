@@ -1164,7 +1164,11 @@
    height: 24px;
    font-size: 25px;
    padding-right: 26px;
-   color: #d6d7e3;
+   color: var(--top-nav-buttons-text);
+ }
+
+ .darkmode .connection_status {
+   color: var(--top-nav-buttons-dark-text);
  }
  
  .request_fullscreen {
@@ -1172,7 +1176,11 @@
    height: 24px;
    font-size: 25px;
    padding-right: 0px;
-   color: #d6d7e3;
+   color: var(--top-nav-buttons-text);
+ }
+
+ .darkmode .request_fullscreen {
+   color: var(--top-nav-buttons-dark-text);
  }
  
  .arrows-up-down {
