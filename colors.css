@@ -5,9 +5,6 @@
   --highlight: #0095DA;
   --highlight2: #EB008B;
 
-  --highlight-hover: #0072bc;
-  --highlight2-hover: #b9006e;
-
   --body-bg: #f8f9fa;
   --body-text: #333;
   --body-dark-text: #FFF;
@@ -16,6 +13,9 @@
   --sidebar-text: #333;
   --sidebar-dark-bg: #28272D;
   --sidebar-dark-text: #FFF;
+
+  --top-nav-title-color: #333;
+  --top-nav-dark-title-color: #FFF;
 
   --top-nav-bg: #f8f9fa;
   --top-nav-dark-bg: #28272D;
@@ -31,37 +31,34 @@
   --offline-color: #ff0000;
 }
 
-
 .theme-iotiva {
-  --main-bg: #F4F6F8;
-  --main-dark-bg: #1B1B1F;
+    --main-bg: #F4F6F8;
+    --main-dark-bg: #1B1B1F;
 
-  --highlight: #0095DA;       /* Azul corporativo */
-  --highlight2: #EB008B;      /* Magenta vibrante */
+    --highlight: #214080;
+    --highlight2: #EB008B;
 
-  --highlight-hover: #0072BC;    /* Azul más intenso */
-  --highlight2-hover: #B9006E;   /* Magenta oscuro */
+    --body-bg: #FFFFFF;
+    --body-text: #333333;
+    --body-dark-text: #FFFFFF;
 
-  --body-bg: #FFFFFF;         /* Blanco para claridad */
-  --body-text: #333333;       /* Texto oscuro legible */
-  --body-dark-text: #FFFFFF;
+    --sidebar-bg: #DAE5F2;
+    --sidebar-text: #2C2C2C;
+    --sidebar-dark-bg: #1F1F23;
+    --sidebar-dark-text: #F5F5F5;
 
-  --sidebar-bg: #E9EDF0;      /* Gris claro con tono azulino */
-  --sidebar-text: #2C2C2C;
-  --sidebar-dark-bg: #1F1F23;
-  --sidebar-dark-text: #F5F5F5;
+    --top-nav-title-color: #213080;
+    --top-nav-dark-title-color: #FFF;
 
-  --top-nav-bg: #F4F6F8;
-  --top-nav-dark-bg: #1B1B1F;
-  --top-nav-text: #333;
-  --top-nav-dark-text: #FFF;
+    --top-nav-bg: #DAE5F2;
+    --top-nav-dark-bg: #1B1B1F;
+    --top-nav-text: #333;
+    --top-nav-dark-text: #FFF;
+    --top-nav-buttons-bg: #214080;
+    --top-nav-buttons-dark-bg: #212121;
+    --top-nav-buttons-text: #FFF;
+    --top-nav-buttons-dark-text: #FFF;
 
-  --top-nav-buttons-bg: #E6E6E6;
-  --top-nav-buttons-dark-bg: #212121;
-  --top-nav-buttons-text: #555;
-  --top-nav-buttons-dark-text: #FFF;
-
-  --online-color: #00D084;    /* Verde moderno */
-  --offline-color: #FF3B30;   /* Rojo alerta */
+    --online-color: #00D084;
+    --offline-color: #FF3B30;
 }
-

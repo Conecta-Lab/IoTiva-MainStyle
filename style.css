@@ -2308,7 +2308,7 @@
  }
  
  .darkmode .custom-title {
-   color: var(--body-dark-text) !important;
+   color: var(--top-nav-dark-title-color) !important;
  }
  
  .custom-title a {/*CUSTOM TITLE*/
@@ -4174,12 +4174,12 @@
 
    .sidebar.hidden .sidebar-body-menu .icon {
      background-color: transparent;
-     color: var(--sidebar-text)
+     color: var(--highlight)
    }
    
    .darkmode .sidebar.hidden .sidebar-body-menu .icon {
      background-color: transparent;
-     color: var(--sidebar-dark-text)
+     color: var(--highlight-dark)
    }
  
    .sidebar.hidden .sidebar-body-menu a::after {
