@@ -4145,12 +4145,12 @@
 
    }
 
-   .sidebar.hidden .sidebar-body-menu .icon {
+   .sidebar.hidden .sidebar-body-menu .icon {
      background-color: #2f49d1;
      color: var(--sidebar-text)
    }
    
-   .darkmode .sidebar.hidden .sidebar-body-menu .icon {
+   .darkmode .sidebar.hidden .sidebar-body-menu .icon {
      background-color: #4bde97;
      color: var(--sidebar-dark-text)
    }
