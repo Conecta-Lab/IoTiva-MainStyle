@@ -3502,11 +3502,12 @@
  
  .darkmode .sun-icon {
    display: none;
- }
+   fill: var(--top-nav-buttons-dark-text);
+  }
  
  .darkmode .moon-icon {
    display: initial;
-   fill: #fff;
+   fill: var(--top-nav-buttons-dark-text);
  }
  
  .darkmode .sidebar {
@@ -3682,8 +3683,14 @@
    background-image: url(../img/svg/Bulk/Menu-toggle-white.svg);
  }
  
+ .sun-icon {
+   display: initial;
+   fill: var(--top-nav-buttons-text)
+ }
+
  .moon-icon {
    display: none;
+   fill: var(--top-nav-buttons-text)
  }
  
  @media (min-width: 576px) {
