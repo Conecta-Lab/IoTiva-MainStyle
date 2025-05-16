@@ -2279,7 +2279,7 @@
  
  .sidebar .logo {/*CAMBIO*/
      text-align: center;
-     margin-bottom: 20px;
+     margin-bottom: 10px;
  }
  
  .custom-title {/*CAMBIO*/
@@ -2299,7 +2299,8 @@
  }
  
  .logo {
-   border-radius: 0%;/*CAMBIO*/
+   width: 100%;
+   border-radius: 50%;/*CAMBIO*/
  }
  
  .logo-container {
@@ -4114,6 +4115,10 @@
    .sidebar.hidden .logo-wrapper {
      display: none;
    }
+
+   .sidebar.hidden .logo {
+     width: 40px;
+   }
  
    .sidebar.hidden * {
      font-size: 0px;
@@ -4123,7 +4128,7 @@
      -webkit-box-pack: center;
      -ms-flex-pack: center;
      justify-content: center;
-     margin-top: 20px;
+     margin-top: 10px;
      padding-bottom: 40px;
    }
  
