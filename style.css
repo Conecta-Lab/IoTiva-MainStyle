@@ -2299,7 +2299,7 @@
  }
  
  .logo {
-   width: 100%;
+   width: 120px;
    border-radius: 50%;/*CAMBIO*/
  }
  
@@ -4142,6 +4142,17 @@
      justify-content: center;
      padding-top: 8px;
      padding-bottom: 8px;
+
+   }
+
+   .sidebar.hidden .sidebar-body-menu .icon {
+     background-color: #2f49d1;
+     color: var(--sidebar-text)
+   }
+   
+   .darkmode .sidebar.hidden .sidebar-body-menu .icon {
+     background-color: #4bde97;
+     color: var(--sidebar-dark-text)
    }
  
    .sidebar.hidden .sidebar-body-menu a::after {
