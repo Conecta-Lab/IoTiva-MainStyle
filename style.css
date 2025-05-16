@@ -2096,10 +2096,7 @@
  .darkmode .sidebar a {
      color: var(--sidebar-dark-text);
  }
- 
- .sidebar a:hover {/*CAMBIO*/
-     background-color: #d6d6d6
- }
+
  
  .sidebar a:focus {
    outline: none;
