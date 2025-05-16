@@ -1048,13 +1048,13 @@
  }
  
  .menu-toggle {
-   background-image: url(https://conecta-lab.github.io/IoTiva-MainStyle/img/svg/Bulk/Menu-toggle-black.svg); /*REF a GH*/
+   background-image: url(../img/svg/Bulk/Menu-toggle-gray.svg);
    width: 24px;
    height: 24px;
  }
 
  .darkmode .menu-toggle {
-   background-image: url(https://conecta-lab.github.io/IoTiva-MainStyle/img/svg/Bulk/Menu-toggle-white.svg); /*REF a GH*/
+   background-image: url(../img/svg/Bulk/Menu-toggle-gray.svg);
    width: 24px;
    height: 24px;
  }
