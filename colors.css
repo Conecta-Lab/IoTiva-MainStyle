@@ -47,7 +47,7 @@
   --body-dark-text: #FFFFFF;
 
   --menu-btn-bg: #214080;
-  --menu-btn-dark-bg: #212121;
+  --menu-btn-dark-bg: #DAE5F2;
 
   --sidebar-bg: #DAE5F2;
   --sidebar-text: #2C2C2C;
@@ -80,6 +80,9 @@
   --body-bg: #FFFFFF;
   --body-text: #333333;
   --body-dark-text: #FFFFFF;
+
+  --menu-btn-bg: #F1BA88;
+  --menu-btn-dark-bg: #D9733F;
 
   --sidebar-bg: #D9733F;
   --sidebar-text: #FFF;
