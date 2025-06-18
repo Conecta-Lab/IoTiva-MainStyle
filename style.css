@@ -1067,14 +1067,14 @@
  }
   */
 
-  .menu-toggle svg {
-    color: var(--menu-btn-bg);
+  .menu-toggle-container svg {
+    color: var(--menu-btn-bg) !important;
     width: 24px;
     height: 24px;
   }
 
-  .darkmode .menu-toggle svg {
-    color: var(--menu-btn-dark-bg);
+  .darkmode .menu-toggle-container svg {
+    color: var(--menu-btn-dark-bg) !important;
     width: 24px;
     height: 24px;
   }
