@@ -34,6 +34,43 @@
   --offline-color: #ff0000;
 }
 
+.theme-iot {
+  --main-bg: #FFF0F8;
+  --main-dark-bg: #2B002B;
+
+  --highlight: #D400A8;
+  --highlight-dark: #FFFFFF;
+  --highlight2: #FF77CC;
+
+  --body-bg: #FFFFFF;
+  --body-text: #333333;
+  --body-dark-text: #FFFFFF;
+
+  --menu-btn-bg: #D400A8;
+  --menu-btn-dark-bg: #FF99CC;
+
+  --sidebar-bg: #FF99CC;
+  --sidebar-text: #2C2C2C;
+  --sidebar-dark-bg: #2B002B;
+  --sidebar-dark-text: #FFFFFF;
+
+  --top-nav-title-color: #D400A8;
+  --top-nav-dark-title-color: #FFFFFF;
+
+  --top-nav-bg: #FF99CC;
+  --top-nav-dark-bg: #1C001C;
+  --top-nav-text: #333333;
+  --top-nav-dark-text: #FFFFFF;
+
+  --top-nav-buttons-bg: #E4007F;
+  --top-nav-buttons-dark-bg: #2B002B;
+  --top-nav-buttons-text: #FFFFFF;
+  --top-nav-buttons-dark-text: #FFFFFF;
+
+  --online-color: #FF33A8;
+  --offline-color: #880044;
+}
+
 .theme-iotiva {
   --main-bg: #F4F6F8;
   --main-dark-bg: #1B1B1F;
